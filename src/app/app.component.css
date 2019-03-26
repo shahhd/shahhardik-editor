@@ -1,0 +1,20 @@
+#userlist {
+    position: absolute; left: 0; top: 0; bottom: 0; height: auto;
+    width: 270px;
+    height:290px;
+  }
+.editor {
+    position: absolute; left: 275px; top: 0; bottom: 0; right: 0; height: 30%;width:70%
+  }
+  #userlist-user{
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    top: 38px;
+    bottom: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;  
+    text-align: left;
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: normal;
+  }

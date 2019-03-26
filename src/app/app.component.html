@@ -1,0 +1,24 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <div style="width:80%; position: relative;">
+    <div id="userlist">
+      <span style="margin: 20px 15px;font-weight: bold;border-bottom: 2px solid #c9c9c9">ONLINE</span>
+      <div id="userlist-user">
+             <div *ngFor ="let user of userdata">
+            <div [style.background-color]="user.color" style="width:32px; height: 32px; border:5px sol #cccccc">
+              <span style="left:38px; position: relative;">Users{{user.userName}}</span></div>
+              <br/>
+          </div>
+      </div>
+
+    </div>
+    <div class="editor">
+      <ace-editor #firepad mode="text" theme="textmate" class="ace-editor" style="height:450px;">
+      </ace-editor>
+    </div>
+  </div>
+
+</div>
